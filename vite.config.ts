@@ -5,7 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/",
+  // Use the repository path for GitHub Pages project site
+  base: "/portraitpop-ai-magic/",
   server: {
     host: "::",
     port: 8080,
